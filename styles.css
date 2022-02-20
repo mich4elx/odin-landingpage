@@ -24,6 +24,7 @@ body{
 }
 .footer{
     display: flex;
+    height: 50px;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
@@ -35,16 +36,82 @@ body{
     background-color: #1F2937;
     display: flex;
     flex: 1;
+    padding: 50px 250px 50px 250px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.block1Btn{
+    margin-top: 15px;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+h1{
+    color: white;
+    font-size: 48px;
+    margin: 0px;
+}
+p{
+    margin: 0px;
 }
 .block2{
+    display: flex;
+    flex-direction: column;
     flex:1;
+    justify-content: center;
+    align-items: center;
+}
+.block2div{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 100px 20px 100px;
+    gap: 15px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 .block3{
     background-color: #E5E7EB;
     flex:1;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 200px 75px 200px;
+    font-size: 20px;
+}
+.quoteName{
+    display: flex;
+    justify-content: flex-end;
 }
 .block4{
+    display: flex;
     flex:1;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 0px 75px 0px;
+}
+.block4cont{
+    width: 1000px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.call2Ac{
+    color: white;
 }
 ul{
     margin: 0;
@@ -54,6 +121,25 @@ ul{
     flex-direction: row;
     gap: 15px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 #surfimg{
-    width: 500px;
+    height: 230px;
+    flex: 1;
+}
+.block2img{
+    width: 200px;
+    border-radius: 25px;
+    border: 2px solid blue;
+}
+.block4Btn{
+    width: 80px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    margin-left: 175px;
 }
